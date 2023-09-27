@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>Audrey Louie</title>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <a href="index.html">
+            <img class="logo" src="logo.png" alt="Logo"/>   
+            </a>
+            <nav>
+            <ul class="nav_links">
+                <li><a class= "menu" href="index.html">Home</a></li> 
+                <li><a class= "menu" href="projects.html">Projects</a></li> 
+                <li><a class= "menu" href="about.html">About</a></li> 
+                <li><a class= "menu" href="contact.html">Contact</a></li> 
+            </ul>  
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <script src="script.js"></script>
+    </header>
+
+    <main>
+        <section class="section-contact">
+            <div class="container">
+                <h2>Contact Me!</h2>
+
+                <form action="https://formsubmit.co/03c950d255caa1cff2f70fcc37baa5d0" method="POST">
+                    <input type="text" name="_honey" style="display:none;">
+                    <input type="hidden" name="_captcha" value="false";>
+
+                    <input type="hidden" name="_next" value="https://audreylouie.github.io/developedbyaudrey/success.html">
+
+                    <div class="form-group">
+                        <label for="firstname">First Name*</label>
+                        <input
+                            type="text"
+                            name="firstname"
+                            id="firstname"
+                            required
+                            class="form-element"
+                            placeholder="John"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name*</label>
+                        <input
+                            type="text"
+                            name="lastname"
+                            id="lastname"
+                            required
+                            class="form-element"
+                            placeholder="Doe"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address*</label>
+                        <input
+                            type="text"
+                            name="email"
+                            id="email"
+                            required
+                            class="form-element"
+                            placeholder="john.doe@example.com"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailsubject">Email Subject</label>
+                        <input
+                            type="text"
+                            name="emailsubject"
+                            id="emailsubject"
+                            class="form-element"
+                            placeholder="Email Subject"/>
+                    </div>
+                    <div class="form-group full">
+                        <label for="message">Questions, Comments*</label>
+                        <textarea 
+                        name="message" 
+                        id="message"
+                        class="form-element"
+                        required
+                        placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="submit-group">
+                        <div class="center">
+                            <div class="btn-box btns">
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <br>
+        <i>Copyright &copy; 2023 by Audrey Louie</i><br>
+    </footer>
+</body>
+</html>
