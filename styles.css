@@ -372,21 +372,24 @@ body {
   }
 
 
-.img-1{
-  background-image: url(img/TheLostFish.jpg);
-}
-.img-2{
-  background-image: url(img/ScottieDog.jpg);
-}
-.img-3{
-  background-image: url(img/Poster.png);
-}
-.img-4{
-  background-image: url(img/StillLife.jpg);
-}
-.img-5{
-  background-image: url(img/SubwayGarden.jpg);
-}
+  .img-1{
+    background-image: url(img/TheLostFish.jpg);
+  }
+  .img-2{
+    background-image: url(img/ScottieDog.jpg);
+  }
+  .img-3{
+    background-image: url(img/Poster.png);
+  }
+  .img-4{
+    background-image: url(img/StillLife.jpg);
+  }
+  .img-5{
+    background-image: url(img/SubwayGarden.jpg);
+  }
+  .img-6{
+    background-image: url(img/generativeart.jpg);
+  }
 
 
   @media(max-width: 1600px){
