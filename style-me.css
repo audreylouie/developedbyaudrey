@@ -262,6 +262,23 @@ header{
     margin: 8px;
 }
 
+.profile-details .intro .social{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.profile-details .intro .social i{
+    font-size: 20px;
+    color: #111;
+    background-color:#e9e6df;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 .profile-details .contact-info{
     background-color:#e9e6df;
     padding: 20px;

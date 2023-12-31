@@ -406,7 +406,12 @@ main h2 {
 .text h4{
     font-size: 30px;
 }
-
+#dog{
+    scroll-margin-top: 130px;
+  }
+#classic{
+    scroll-margin-top: 130px;
+}
 
 @media screen and (max-width: 2000px){
     .container{
@@ -496,6 +501,12 @@ main h2 {
 
     .text h3{
         font-size:25px;
+    }
+    #dog{
+        scroll-margin-top: 0px;
+      }
+    #classic{
+        scroll-margin-top: 0px;
     }
 }
 
